@@ -1,0 +1,31 @@
+header
+{
+        background-image: url('../images/bg.jpg');
+        background-size:cover;
+        background-position: center center;
+        height: 70vh;
+}
+.item img
+{
+        height: 250px;
+        cursor: pointer;
+}
+.item a
+{
+        color: #333;
+}
+.item button
+{
+        margin-top: 10px;
+}
+.item button:hover a
+{
+        color: #fff;
+        text-decoration: none;
+        transition: .3s ease-in-out;
+}
+
+.details img
+{
+        height: 350px;
+}
